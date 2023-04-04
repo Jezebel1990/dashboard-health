@@ -46,6 +46,7 @@
     background: linear-gradient(135deg, #a777e3, #5239ed);
     border: none;
     color: #fff;
+    margin-top: 10px;
 }
 
 .login-form-wrapper button:hover {
@@ -60,9 +61,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
-   
-
-
-
+    margin-bottom: 20px;
+    padding: 10px 0;
 }

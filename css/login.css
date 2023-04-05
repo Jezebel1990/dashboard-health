@@ -22,10 +22,6 @@
     align-items: center;
     justify-content: center;
 }
-.banner-login img {
-    position: relative;
-    bottom: 40px;
-}
 
 .banner-login h2 {
     position: relative;
@@ -63,4 +59,23 @@
     justify-content: space-between;
     margin-bottom: 20px;
     padding: 10px 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .banner-login {
+        width: 50%;
+        padding: 0 2%;
+    }
+    .banner-login img {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .banner-login {
+        display: none;
+    }
+    .login-form {
+        width: 100%;
+    }
 }

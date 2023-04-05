@@ -11,30 +11,47 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-image: url("https://i.imgur.com/kO1RamX.jpg");
+    
 }
 
 .banner-login {
     width: 50%;
     height: 100%;
-    background-color: #ccc;
+    background:#fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+
+
 .banner-login h2 {
     position: relative;
     bottom: 40px;
+    color:  #4c0483;
+}
+
+
+.form-group input {
+    display:block;
+    background:rgba(0,0,0,0.2);
+    color:#fff;
+    border:0;
+    
 }
 
 
 .login-form-wrapper {
-    width: 100%;
+    width: 70%;
     max-width: 400px;
     display: flex;
     flex-direction: column;
     padding: 20px;
+    color:#fff;
+    background:rgba(0,0,0,0.50);
+    
 }
 
 .login-form-wrapper button {
@@ -59,6 +76,12 @@
     justify-content: space-between;
     margin-bottom: 20px;
     padding: 10px 0;
+}
+
+
+
+.login-title a {
+    color:  #a777e3;
 }
 
 @media screen and (max-width: 1280px) {

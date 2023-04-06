@@ -48,9 +48,12 @@
     max-width: 400px;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 18px 6% 60px 6%;
     color:#fff;
     background:rgba(0,0,0,0.50);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     
 }
 
@@ -68,6 +71,13 @@
     transform: scale(1.05);
     transition: .2s;
 }
+
+
+.banner-login img:hover {
+    transform: scaleX(-1);
+}
+
+
 
 .login-title {
     display: flex;

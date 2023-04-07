@@ -18,7 +18,7 @@
 .banner-login {
     width: 50%;
     height: 100%;
-    background:#fff;
+    background: #f1f1f2;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,7 +30,7 @@
 .banner-login h2 {
     position: relative;
     bottom: 40px;
-    color:  #4c0483;
+    color:  #4d30ff
 }
 
 

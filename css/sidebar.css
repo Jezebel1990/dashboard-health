@@ -28,9 +28,16 @@ main {
   background-color: #0b0653;
   border: 1px solid rgba(0,0,0,.0625);
   padding: 10px 30px;
-  
-
 }
+.flex-dashboard header a {
+text-decoration: none;
+color: #f1f1f2;
+}
+
+.flex-dashboard header a > svg {
+color:#f1f1f2;
+}
+
 sidebar .sidebar-title {
     display: flex;
     flex-direction: column;
@@ -50,6 +57,39 @@ sidebar .sidebar-title img {
 sidebar .sidebar-title h2 {
     font-size: 18px;
     margin-top: 8px;
+    color:  #4d30ff;
+
+}
+
+div .menu {
+    border-right: 1px solid rgba(0,0,0,.0625) ;
+}
+
+div .menu ul { 
+    list-style-type: none;
+}
+
+div .menu ul li {
+    border: 1pix solid #f1f1f2;
+    padding: 20px 20px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+div .menu ul li svg {
+    color: #f1f1f2;
+    font-size: 25px;
+}
+
+div .menu ul li a {
+    color: #f1f1f2;
+    margin-left: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+div .menu ul li a:hover {
     color:  #4d30ff;
 
 }

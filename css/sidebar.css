@@ -19,24 +19,6 @@ main {
     width: calc(100% - 300px);
 }
 
-.flex-dashboard header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  height: 90px;
-  background-color: #0b0653;
-  border: 1px solid rgba(0,0,0,.0625);
-  padding: 10px 30px;
-}
-.flex-dashboard header a {
-text-decoration: none;
-color: #f1f1f2;
-}
-
-.flex-dashboard header a > svg {
-color:#f1f1f2;
-}
 
 sidebar .sidebar-title {
     display: flex;

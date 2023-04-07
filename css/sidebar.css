@@ -12,14 +12,6 @@ sidebar {
     background-color: #0b0653;
 }
 
-main {
-    display: block;
-    height: 100%;
-    background-color: #f1f1f2;
-    width: calc(100% - 300px);
-}
-
-
 sidebar .sidebar-title {
     display: flex;
     flex-direction: column;

@@ -118,3 +118,29 @@ div.main-content-title h2 {
 	font-weight: 200;
 	color: #4d30ff;
 }
+
+div.bmi-parent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 0;
+}
+
+div.bmi {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	max-width: 1300px;
+	padding: 40px 20px;
+	width: 100%;
+	background-color: white;
+	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+	color: #4d30ff;
+
+	div.bmi h2 {
+		font-weight: 300;	
+	}
+	
+}

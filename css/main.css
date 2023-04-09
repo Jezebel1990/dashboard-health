@@ -72,6 +72,32 @@ main  .main-content{
 	transition: 0.2s;
 }
 
+div#ajax-content {
+	width: 100%;
+	margin-top: 20px;
+	background: white;
+	box-shadow: 0 0 2rem rgba(0, 0,0, 0.1);
+}
 
+div#ajax-content button {
+	background: linear-gradient(135deg, #a777e3, #5239ed);
+	color: #fff;
+}
 
+div#ajax-content button:hover {
+	transform: scale(1.10);
+	transition: 0.2s;
+}
 
+div#ajax-context label {
+	font-size: 14px;
+	color: #5239ed;
+}
+
+div#ajax-content table svg {
+	cursor: pointer;
+}
+
+.dynamic-content {
+	padding: 20px;
+}

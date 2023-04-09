@@ -66,9 +66,14 @@ main  .main-content{
 	color: #fff;
 
 }
+.panel-row button svg {
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+
 
 .panel-row button:hover {
-	transform: scale(1.10);
+	transform: scale(1.05);
 	transition: 0.2s;
 }
 

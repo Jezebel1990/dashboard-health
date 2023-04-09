@@ -60,8 +60,12 @@
     <h2>Gerenciar pressão arterial</h2>
 </div>
       <div class="panel-row">
-    <button class="panel panel-50" a-view="registeringPressure" onclick="fetchContent(this)" a-folder="pressure">Cadastrar Peso</button>
-    <button class="panel panel-50"a-view="seePressure" onclick="fetchContent(this)" a-folder="pressure">Vizualizar Peso</button>
+    <button class="panel panel-50" a-view="registeringPressure" onclick="fetchContent(this)" a-folder="pressure">
+             <i class="fa-solid fa-plus"></i>
+        Cadastrar Pressão arterial</button>
+    <button class="panel panel-50"a-view="seePressure" onclick="fetchContent(this)" a-folder="pressure">
+        <i class="fa-regular fa-eye"></i>
+        Vizualizar Pressão arterial</button>
    </div> 
    <div class="content" id="ajax-content">
    </div>

@@ -1,0 +1,68 @@
+div.profile-parent {
+    padding: 10px 0 ;
+}
+
+div.profile-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+div.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 930px;
+    padding: 40px 20px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+
+div.profile-img {
+    width: 40%;
+}
+
+div.perfil-form {
+    width: 60%;
+}
+
+div.profile-form label {
+    font-size: 14px;
+    color: #5239ed;
+}
+
+div.profile-form .custom-file {
+    margin-top: 10px;
+}
+
+
+div.profile-form input, div.profile-form select {
+    font-size: 14px;
+    color: #5239ed;
+}
+
+
+div.profile-form button {
+    margin-top: 10px;
+    background: linear-gradient(135deg, #a777e3, #5239ed);
+    color: #fff;
+    border: none;
+}
+
+div.profile-form button:hover {
+    border: none;
+    color: #fff;
+    transform: scale(1.10);
+    transition: .2s;
+}
+
+div.img {
+    height: 500px;
+    width: 400px;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+}
+

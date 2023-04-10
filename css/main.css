@@ -162,15 +162,13 @@ padding: 10px 0;
 	justify-content: space-around;
 }
 
+
 .dashboard-box {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 22%;
+	width: 100%;
 	max-width: 350px;
-	height: 210px;
+	padding-top: 15%;
 	background-color: white;
-	padding: 20px;
+	justify-content: center;
 }
 
 .dashboard-box:hover {
@@ -180,17 +178,6 @@ padding: 10px 0;
 }
 
 
-div.box-icon {
-	width: 55px;
-	height: 55px;
-	border-radius: 100%;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	margin-top: 0px;
-}
-
 div.box-icon svg {
 	font-size: 18px;
 }
@@ -199,12 +186,27 @@ div.value {
 	margin-top: 10px;
 	text-transform: uppercase;
 	font-size: 22px;
+	font-weight: 400;
 }
 
-div.type{
+div.type {
 	font-size: 14px;
 	margin-top: 5px;
 	text-transform: uppercase;
+	color: #111;
+}
+
+
+.dashboard-box-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .box-weight {
@@ -229,13 +231,72 @@ div.type{
 
 }
 
-div.box-volve-percentual {
+div.box-value-percentual {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	margin-top: 20px;
+	margin-top: 30px;
 }
 
-div.box-volve-percentual svg {
+
+
+div.box-value-percentual svg {
 	margin-right: 10px;
 }
+
+.box-value-weight {
+	color: #6283E5;
+}
+
+.box-value-pressure {
+	color: #FA5358;
+}
+
+.box-value-bmi {
+	color: #AFB42B;
+}
+
+.box-value-workout {
+	color: #e925a8;
+}
+
+.box-value-workout span {
+	font-size: 13px;
+}
+
+
+
+@media screen and (max-width: 1600px) {
+	.dashboard-box {
+		width: 100%;
+		max-width: 300px;
+		padding-top: 20%;
+		position: relative;
+		margin: 0 10px;
+		padding-bottom: 20px;
+	
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.dashboard-flex-parent {
+		flex-wrap: wrap;
+	}
+	.dashboard-box {
+		padding: 0%;
+		height: 240px;
+		margin: 20px;
+		padding-bottom: 20px;
+	}
+	
+	div.box-icon {
+		margin-top: 20px;
+	}
+	div.box-value-percentual {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	 }
+	}

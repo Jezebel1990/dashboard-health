@@ -137,10 +137,70 @@ div.bmi {
 	width: 100%;
 	background-color: white;
 	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
-	color: #4d30ff;
+	
+}
 
 	div.bmi h2 {
 		font-weight: 300;	
+		color: #0b0653;
 	}
-	
+
+
+div.bmi h2 span:nth-child(2) {
+	color: #5239ed;
+	font-weight: 500;
+}
+
+ div.dashboard-content {
+padding: 10px 0;
+ }
+
+.dashboard-flex-parent {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.dashboard-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 22%;
+	max-width: 350px;
+	height: 210px;
+	background-color: white;
+}
+
+.dashboard-box:hover {
+	transition: 0.5s;
+	box-shadow: 0 0 1rem rgba(156, 156, 156, 0.4);
+	transform: scale(1.05);
+}
+
+
+div.box-icon {
+	width: 55px;
+	height: 55px;
+	border-radius: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+div.box-icon svg {
+	font-size: 18px;
+}
+
+div.value {
+	margin-top: 10px;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+
+div.type{
+	font-size: 14px;
+	margin-top: 20px;
 }

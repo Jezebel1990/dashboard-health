@@ -170,6 +170,7 @@ padding: 10px 0;
 	max-width: 350px;
 	height: 210px;
 	background-color: white;
+	padding: 20px;
 }
 
 .dashboard-box:hover {
@@ -187,7 +188,7 @@ div.box-icon {
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	margin-top: 30px;
+	margin-top: 0px;
 }
 
 div.box-icon svg {
@@ -202,5 +203,39 @@ div.value {
 
 div.type{
 	font-size: 14px;
+	margin-top: 5px;
+	text-transform: uppercase;
+}
+
+.box-weight {
+  background-color: rgba(110, 142, 251, 0.1);
+  color: #6283E5;
+
+}
+.box-pressure {
+  background-color: rgba(229, 115, 115, 0.1);
+  color: #FA5358;
+}
+
+.box-bmi {
+  background-color: rgba(220, 231, 117, 0.1);
+  color: #AFB42B;
+
+}
+
+.box-workout {
+	background-color: rgba(255, 130, 102, 0.1);
+	color: #e925a8;
+
+}
+
+div.box-volve-percentual {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 	margin-top: 20px;
+}
+
+div.box-volve-percentual svg {
+	margin-right: 10px;
 }

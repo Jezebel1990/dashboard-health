@@ -44,7 +44,6 @@ div .menu ul {
 }
 
 div .menu ul li {
-    /* border: 1pix solid #f1f1f2; */
     padding: 20px 20px;
     display: flex;
     width: 100%;
@@ -62,6 +61,7 @@ div .menu ul li a {
     margin-left: 20px;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 15px;
 }
 
 div .menu ul li a:hover {
@@ -75,4 +75,38 @@ div .menu ul li a:hover {
 
 .selected a {
     color: #0b0653 !important;
+}
+.sidebar_logout {
+    display: none;
+}
+
+
+.hide {
+    left: -300px;
+}
+
+@media screen and (max-width: 760px) {
+    sidebar {
+        position: absolute;
+        top: 0;
+        z-index: 2;
+        transition: all .2s;
+        left: -300;
+    }
+    .sidebar_logout {
+        display: block;
+    }
+}
+@media screen and (max-width: 380px) {
+    sidebar {
+        position: absolute;
+        top: 0;
+        z-index: 2;
+        transition: all .2s;
+        left: -300px;
+        width: 250px;
+    }
+    .sidebar_logout {
+        display: block;
+    }
 }

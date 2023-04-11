@@ -45,12 +45,19 @@
           <label for="exampleInputPassword1">Senha</label>
           <input type="password" class="form-control" id="exampleInputPassword1">
         </div>
-        <button type="submit" class="btn btn">Cadastrar</button>
+        <button type="submit" onclick="register()" class="btn">Cadastrar</button>
       </form>
 </div>
     </div>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="../plugins/fontawesome/js/all.min.js"></script>
+<script src="../js/menu.js"></script>
+<script>
+function register() {
+ window.location.href = '/index.html';
+ event.preventDefault();
+}
+</script>
 </body>
 </html>

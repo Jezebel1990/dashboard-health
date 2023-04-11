@@ -6,6 +6,8 @@ Welcome, this project is a responsive web dashboard for healthy living.
 ![Captura de tela 2023-04-10 033848](https://user-images.githubusercontent.com/75287031/230847188-699f55d7-2a82-4057-a0c3-9469c0bf39a1.png)
 ![Captura de tela 2023-04-10 174749](https://user-images.githubusercontent.com/75287031/230996732-2e115533-25f5-41a9-b647-a385f886ba85.png)
 
+![Captura de tela 2023-04-11 111300](https://user-images.githubusercontent.com/75287031/231191090-daf4f03e-f9d5-47c8-8d15-ae82461c0d9d.png)
+
 ## ⚙️ Technologies
 
 - JavaScript;

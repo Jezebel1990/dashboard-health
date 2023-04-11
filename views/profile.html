@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/all.css">
    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
    <link rel="stylesheet" href="../plugins/fontawesome/css/all.min.css">
+   <link rel="stylesheet" href="../plugins/sweet-alert/dist/sweetalert2.min.css">
     <title>Health Track</title>
 </head>
 <body>
@@ -73,25 +74,32 @@
 
             </div>
             <div class= "profile-form">
-                <form>
+                <form id="form-profile">
                     <div class="form-group">
                       <label for="exampleInputEmail1">Nome completo</label>
-                      <input type="text" class="form-control" id="name" placeholder="Nome completo">
+                      <input type="text" class="form-control" name="name" id="name" placeholder="Nome completo">
                      
                     </div>
                     <div class="form-group">
                       <label for="email">Email</label>
-                      <input type="email" class="form-control" id="email" placeholder="Email">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Email">
                     </div>
+
+                    <div class="form-group">
+                      <label for="cpf">CPF</label>
+                      <input type="text" class="form-control"  name="cpf" id="cpf" placeholder="Digite seu cpf">
+                    </div>
+                    
+
                     <div class="form-group">
                         <label for="age">Idade</label>
-                        <input type="text" class="form-control" id="age" placeholder="Idade">
+                        <input type="text" class="form-control"name="age" id="age" placeholder="Idade">
                       </div>
                       
                       
                       <div class="form-group">
                         <label for="gender">Gênero </label>
-                        <select class="form-control" id="gender">
+                        <select name="gender" class="form-control" id="gender">
                           <option>Masculino</option>
                           <option>Feminino</option>
                           <option>Outros</option>
@@ -99,15 +107,22 @@
                       </div>
                       <div class="form-group">
                         <label for="password">Senha</label>
-                        <input type="password" class="form-control" id="password" placeholder="Senha">
+                        <input type="password" name="password" class="form-control" id="password" placeholder="Senha">
                       </div>
+
+                      <div class="form-group">
+                        <label for="confirmPassword">Confirmar senha</label>
+                        <input type="confirmPassword" name="confirmPassword" class="form-control" id="confirmPassword" placeholder="Senha">
+                      </div>
+
+
                       <div class="custom-file">
                         <input type="file" class="custom-file-input" id="customFile">
-                        <label class="custom-file-label" for="customFile">Choose file</label>
+                        <label class="custom-file-label" for="customFile">Escolha um arquivo</label>
                       </div>
   
 
-                    <button type="submit" class="btn">Salvar</button>
+                    <button type="submit" id="profile-save" class="btn">Salvar</button>
                   </form>
             </div>
         </div>
@@ -115,8 +130,14 @@
     <main>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="../plugins/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="../plugins/jquery-validation/dist/additional-methods.min.js"></script>
+<script src="../plugins/jquery-validation/dist/localization/messages_pt_BR.min.js"></script>
+<script src="../plugins/sweet-alert/dist/sweetalert2.all.min.js"></script>
 <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="../plugins/fontawesome/js/all.min.js"></script>
+<script src="../js/ajax.js"></script>
 <script src="../js/menu.js"></script>
+<script src="../js/profile.js"></script>
 </body>
 </html>
